@@ -1,0 +1,15 @@
+{
+  "name": "mongoose-introduction",
+  "version": "1.0.0",
+  "description": "This is a introduction for mongodb whit mongoose",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^5.11.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Lescano",
+  "license": "ISC"
+}
