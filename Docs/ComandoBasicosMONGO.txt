@@ -1,0 +1,29 @@
+COMANDOS FOR ALWAYS REMEMBER
+
+show dbs                                                                          ||  Muestra las bases de datos que tengamos
+show db                                                                           ||  Muestra el nombre de la base actual en la que nos encontramos
+use namedb                                                                        ||  Nos permite crear una base o usar una base de datos creada
+show collections                                                                  ||  Nos muestra las colecciones que tenemos 
+db.createCollection("nameNewCollection")                                          ||  Nos permite crear una colección 
+db.nameCollection.insert({dataFormatJson})                                        ||  Nos permite ingresar un dato en formato Json 
+db.nameCollection.insert([{dataFormatJson},{dataFormatJson}])                     ||  Nos permite ingresar datos en una lista de manera mas rápida
+db.namecollection.find()                                                          ||  Nos permite visualizar todos los datos
+db.namecollection.find().limit(number)                                            ||  Nos permite visualizar los datos especificando cuantos quiero ver 
+db.namecollection.find().sort({parameter: 1 })                                    ||  Nos permire visualizar los datos de manera ordenada
+db.namecollection.find({parameter:"data"})                                        ||  Nos permite visualizar datos y especificar el atributo de busqueda
+db.namecollection.find({parameter:"data"},{parameter: 1 })                        ||  Nos permite visualizar y mostrar un datos especifico que quiera
+db.namecollection.update({parameter:"data"},{parameter:"data"})                   ||  Nos permite actualizar un documento entero 
+db.namecollection.update({parameter:"data"},{$set:{parameter:"data"}})            ||  Nos permite actualizar un dato en especifico 
+db.namecollection.update({parameter:"data"},{$inc:{parameter:data}})              ||  Nos permite actualizar incrementando un dato numerico
+db.namecollection.update({parameter:"data"},{$rename:{parameter:"newName"}})      ||  Nos permite actualizar el nombre de un atributo 
+db.namecollection.remove({parameter:"data"})                                      ||  Nos permite eliminar el documento que especifiquemos 
+db.namecollection.remove({})                                                      ||  Nos permite eliminar todo 
+
+
+
+
+
+
+
+
+
